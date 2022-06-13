@@ -66,7 +66,9 @@ We have a simple html document containing a single div within the body tag - thi
 
 ## React.createElement()
 
-In this example we'll use React and React DOM to manipulate the DOM to achieve the same output as example 1_Javascript. We'll have to include a couple of script tags within the head of our index.html file using a CDN -  this will expose the React object and ReactDOM object for us to use in our code.
+In this example we'll use React and React DOM to manipulate the DOM to achieve the same output as example Examples/1_Javascript. We'll have to include a couple of script tags within the head of our index.html file using a CDN -  this will expose the React object and ReactDOM object for us to use in our code.
+
+For the code please look at the folder `Examples/2_ReactCreateElement`
 
 ### pseudo code...
 ```
@@ -106,3 +108,4 @@ The *Children* in our example is simply the text "Hello, world!" - BUT we could 
 In the example above I have nested another "div" with a nested "h1" inside of that, so we now have div#root -> div.data-example -> div.data-level-two -> h1.data-level-three
 
 As you can see when we start to nest, or deeply nest React.createElement() calls one within another it soon becomes a little overwhelming and complicated to read / understand, this is where React + JSX comes into help.
+
