@@ -93,9 +93,11 @@ When we call [React.createElement()](https://reactjs.org/docs/react-api.html#cre
 -  props
 -  children
 
-The *type* in our example is a "div"
-The *props* in our example is an object with the className
-The *Children* in our example is simply the text "Hello, world!" - BUT we could add another call to React.createElement() if we wanted to nest another new element within our "root" div, lets take a look below:  
+The *type* in our example is a "div"  
+The *props* in our example is an object with the className  
+The *Children* in our example is simply the text "Hello, world!"  
+
+We could add another call to React.createElement() if we wanted to nest another new element within our "root" div, lets take a look below:  
 
 ```
   <script>
