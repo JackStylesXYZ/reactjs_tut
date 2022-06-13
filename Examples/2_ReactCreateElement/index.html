@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  </head>
+  <body>
+    
+    <div id="root"></div>
+    
+  </body>
+  <!-- <script>
+    const rootElement = document.getElementById('root');
+    const element = React.createElement('div', {className: 'data-example'}, "Hello, world!");
+    ReactDOM.render(element, rootElement);
+  </script> -->
+  <script>
+    const rootElement = document.getElementById('root');
+    const element = React.createElement('div', {className: 'data-example'}, React.createElement('div', {className:'data-level-two'}, React.createElement('h1', {className:'data-level-three'}, 'Title H1 Text')));
+    ReactDOM.render(element, rootElement);
+  </script>
+</html>
